@@ -1,0 +1,31 @@
+
+
+.skills{
+    display: flex;
+    width: 75%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.Rating{
+    display: flex;
+    width: 70%;
+    height: 20px;
+}
+
+.RatingDiv{
+    border: 3px solid rgb(248, 250, 248);
+    width: 20%;
+    height: 100%;
+    background: rgb(12, 10, 0);
+}
+.EnclosureMain{
+    width: 45%;
+    padding-left: 16%;
+}
+.Enclosure{
+    
+    width: 100%;
+    text-align: left;
+}
+

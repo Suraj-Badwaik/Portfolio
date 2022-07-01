@@ -1,0 +1,30 @@
+.About {
+  display: flex;
+  width: 85%;
+  margin: auto;
+}
+
+.About > div {
+  width: 33%;
+}
+
+.h2Head{
+  color: rgba(2, 75, 2, 0.714);
+}
+
+.EachDiv{
+  border: 1px solid gray;
+  margin-top: 5%;
+  margin: 20px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.EachDiv p{
+  width:70%;
+  margin: auto;
+}
+
+.Intro p{
+  color: teal;
+}

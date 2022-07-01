@@ -1,0 +1,68 @@
+
+.name{
+    color: white;
+}
+.name h1{
+    padding-top: 10px;
+    margin: 0px;
+    color: white;
+    font-size: 33px;
+    font-family: sans-serif;
+}
+
+.name h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin-top: -2px;
+    font-size: 14px;
+}
+
+.Links{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 20%;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.Links div{
+    width: 20px;
+    height: 20px;
+}
+
+.Links div img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.Profile{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.Profile img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.MainContainerForHeader{
+    position: relative;
+}
+
+.MainContainerForHeader::before{
+    position: absolute;
+    top: 0;
+    content: "";
+    left: 0;
+    width: 100%;
+    height: 300px;
+    margin: 0px;
+    background: url('https://fr8wff00-a.akamaihd.net/philippines/wp-content/uploads/2021/05/Work-From-Home-Jobs-5.png');
+    z-index: -1;
+    background-color: black;
+    filter: invert(80%);
+}
